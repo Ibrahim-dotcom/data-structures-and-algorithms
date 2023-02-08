@@ -165,27 +165,3 @@ class DoublyLinkedList {
         return true;
     }
 }
-
-const dll = new DoublyLinkedList();
-dll.insertAtHead(10)
-//dll.insertAtHead(16)
-//dll.insertAtHead(40)
-//dll.deleteAtHead();
-const sll = new SinglyLinkedLists();
-sll.insert(5)
-sll.insert(10)
-sll.insert(2)
-sll.insert(12)
-//sll.remove(2)
-sll.deleteAtHead()
-console.log(dll.findStartingHead2(10), dll)
-
-
-/*
-                9
-            4              10
-        null      5
-
-*/
-
-root.left = fn(4,3) = fn(3, 3)

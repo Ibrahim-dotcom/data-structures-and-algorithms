@@ -115,12 +115,3 @@ class MaxHeap extends Heap{
     }
 
 }
-let h = new Heap()
-let minh = new MaxHeap();
-minh.add(1);
-minh.add(10)
-minh.add(5);
-minh.add(100)
-minh.add(8)
-minh.add(2)
-console.log(minh.poll(), minh);

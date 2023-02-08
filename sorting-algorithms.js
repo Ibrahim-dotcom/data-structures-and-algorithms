@@ -124,4 +124,3 @@ function countSort(array) {
     return count
 
 }
-console.log(countSort([12, 11, 13, 5, 6, 45, 3, 3, 3, 6, 11, 15]));

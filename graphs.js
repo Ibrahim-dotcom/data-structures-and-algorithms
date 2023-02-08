@@ -54,17 +54,3 @@ class DirectedGraph{
         delete this.edges[vertex];
     }
 }
-let graph1 = new DirectedGraph();
-graph1.addVertex(1);
-graph1.addVertex(2);
-graph1.addVertex(3);
-graph1.addVertex(4);
-graph1.addEdge(1,2,1)
-graph1.addVertex(5);
-
-graph1.addEdge(2,3,8)
-graph1.addEdge(3,4,10)
-graph1.addEdge(4,5,100)
-graph1.addEdge(1,5,88)
-
-console.log(graph1);

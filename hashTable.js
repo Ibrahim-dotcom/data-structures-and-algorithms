@@ -52,15 +52,3 @@ class HashTable{
         return this.values[hashedIndex]
     }
 }
-
-let exampleTable = new HashTable(13);
-exampleTable.put(7, 'hi');
-exampleTable.put(20, 'hello');
-exampleTable.put(33, 'sunny');
-exampleTable.put(46, 'weather');
-exampleTable.put(59, 'wow');
-exampleTable.put(72, 'forty');
-exampleTable.put(85, 'happy');
-exampleTable.put(98, 'sad')
-
-console.log(exampleTable.get(98))
